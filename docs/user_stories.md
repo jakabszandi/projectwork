@@ -12,9 +12,10 @@ So that I can add items to cart.
 I as a user, want to browse items in the shop
 So that I can find selected items.
 
-4.US4 - Add items to cart:
+4.US4 - Usage of Search bar:
+I as a user want to be able to use the Search bar to find specific products
+So that I can select them.
+
+5.US5 - Add items to cart:
 I as a user want to add items to the cart
 So I can order them.
-
-5.US5 - Delete items from cart:
-I as a user want to be able to delete items from cart
