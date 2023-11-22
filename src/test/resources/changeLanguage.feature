@@ -13,8 +13,8 @@ Feature: Change language test
 
       Examples:
         | defaultLanguage | newLanguage |
-        | hungarian       | english     |
-        | english         | hungarian   |
+        | magyar          | english     |
+        | english         | magyar      |
 
 
 
