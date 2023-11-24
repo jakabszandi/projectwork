@@ -11,6 +11,7 @@ Feature: Log in with email and password
         When I login with following credentials:
           |          email         |     password   |
           | testacc9741@gmail.com  |     Pwd1234*   |
-        Then headline contains the word "Teszt"
+        Then headline contains the word "Üdvözlünk Teszt"
+        And logout button is present
         When I click logout button
         Then login button is present

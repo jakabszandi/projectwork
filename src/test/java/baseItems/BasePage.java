@@ -17,7 +17,7 @@ public class BasePage {
 
     public static WebDriverWait wait;
 
-    public BasePage(WebDriver driver){
+    public BasePage(WebDriver driver) {
         BasePage.driver = driver;
         BasePage.wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         PageFactory.initElements(driver, this);
@@ -31,9 +31,6 @@ public class BasePage {
             return false;
         }
     }
-
-
-
 
 
 }
